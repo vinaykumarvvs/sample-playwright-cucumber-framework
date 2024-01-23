@@ -1,0 +1,20 @@
+{
+  "name": "sample-playwright-cucumber-framework",
+  "version": "1.0.0",
+  "description": "Sample Playwright Cucumber Framework",
+  "main": "index.js",
+  "scripts": {
+    "cucumber": "node ./node_modules/@cucumber/cucumber/bin/cucumber-js ./*/feature/**/*.feature --require ./*/steps/**/*.ts --require ./*/hooks/hooks.ts --format json:./reports/cucumber_report.json --require-module ts-node/register"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "cucumber-html-reporter": "^7.1.1",
+    "expect": "^29.7.0",
+    "multiple-cucumber-html-reporter": "^3.6.1",
+    "playwright": "1.37.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
