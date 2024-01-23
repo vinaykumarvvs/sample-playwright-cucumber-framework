@@ -9,8 +9,8 @@ The tech stack used in this project are:
 #### Getting Started
 Setup your machine.
 1. Node > 16 
-2. Install VSCode
-3. Navigate to repo and run ```npm run install```
+2. Install VSCode & open the repo
+3. On Terminal, navigate to repo and run ```npm run install```
 
 #### Running tests
 * Run tests in Sequence: ```browser=chrome npm run cucumber -- --tags="@test"```
@@ -20,3 +20,7 @@ Setup your machine.
 #### Report
 * Report will be found here: ```reports/index.html```
 ---
+
+### Tests
+1. **[TestCase-1](https://github.com/vinaykumarvvs/sample-playwright-cucumber-framework/blob/main/lib/feature/TestA.feature):** Heroku - FormAuthentication Cases
+2. **[TestCase-2](https://github.com/vinaykumarvvs/sample-playwright-cucumber-framework/blob/main/lib/feature/TestB.feature):** Heroku - Drag And Drop Cases
