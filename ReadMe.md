@@ -4,13 +4,13 @@ The tech stack used in this project are:
 1. **TypeScript** as the programming language for writing test code
 2. **Cucumber** as the framework
 3. **NPM** as the build tool
-4. **VSCode** as the preferred IDE for writing java code.
+4. **VSCode** as the preferred IDE for writing typescript code.
 
 #### Getting Started
 Setup your machine.
-1. Node > 16 
+1. Node 16
 2. Install VSCode & open the repo
-3. On Terminal, navigate to repo and run ```npm run install```
+3. On Terminal, navigate to repo and run ```npm install```
 
 #### Running tests
 * Run tests in Sequence: ```browser=chrome npm run cucumber -- --tags="@test"```
