@@ -18,4 +18,12 @@ jobs:
       - run: npm install
 
       - name: Execute All Tests
-        run: browser=chrome npm run cucumber -- --tags="@test" --parallel=5
+        run: | 
+          browser=chrome npm run cucumber -- --tags="@test" --parallel=5
+          node cucumber.config.js
+      
+      - name: Archive Test Result
+        uses: actions/upload-artifact@v4
+        with:
+          name: Result
+          path: reports/index.html
