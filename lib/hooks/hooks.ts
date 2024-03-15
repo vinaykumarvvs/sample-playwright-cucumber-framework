@@ -29,7 +29,7 @@ async function createBrowser() {
   if (process.env.browser == "chrome"){
     driver.browser = await chromium.launch({
       channel: 'chrome',
-      headless: false,
+      headless: true,
       args: ['--start-maximized']
     });
   } else if (process.env.browser == "firefox") {
